@@ -55,9 +55,9 @@ export default function About() {
               он поёт про то, о чём обычно молчат: про потерю связи, про пацанов, про то,
               как тяжело держаться на плаву. и всё равно каждый релиз заканчивается
               обнимашками 🫂 среди тех, с кем он делал музыку — <span className="text-cyan-200/90">nedonebo</span>,{' '}
-              <span className="text-cyan-200/90">почтиполночь</span>,{' '}
-              <span className="text-cyan-200/90">16 плюс</span> и{' '}
-              <span className="text-cyan-200/90">rpncl</span>.
+              <span className="text-cyan-200/90">Vspak</span>,{' '}
+              <span className="text-cyan-200/90">ЗАВТРА БРОШУ</span> и{' '}
+              <span className="text-cyan-200/90">nedonebo</span>.
             </p>
           </Reveal>
 
