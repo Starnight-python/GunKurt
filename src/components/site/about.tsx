@@ -57,8 +57,8 @@ export default function About() {
               обнимашками 🫂 среди тех, с кем он делал музыку — <span className="text-cyan-200/90">nedonebo</span>,{' '}
               <span className="text-cyan-200/90">Vspak</span>,{' '}
               <span className="text-cyan-200/90">ЗАВТРА БРОШУ</span>,{' '}
-              <span> className="text-cyan-200/90">Nebo7</span> и{' '}
-              <span> className="text-cyan-200/90">720vozduha</span>.
+              <span className="text-cyan-200/90">Nebo7</span> и{' '}
+              <span className="text-cyan-200/90">720vozduha</span>.
             </p>
           </Reveal>
 
