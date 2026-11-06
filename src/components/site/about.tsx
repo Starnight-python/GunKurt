@@ -56,8 +56,7 @@ export default function About() {
               как тяжело держаться на плаву. и всё равно каждый релиз заканчивается
               обнимашками 🫂 среди тех, с кем он делал музыку — <span className="text-cyan-200/90">nedonebo</span>,{' '}
               <span className="text-cyan-200/90">Vspak</span>,{' '}
-              <span className="text-cyan-200/90">ЗАВТРА БРОШУ</span> и{' '}
-              <span className="text-cyan-200/90">nedonebo</span>.
+              <span className="text-cyan-200/90">ЗАВТРА БРОШУ</span>.
             </p>
           </Reveal>
 
