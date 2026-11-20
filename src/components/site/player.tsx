@@ -17,6 +17,14 @@ type Track = {
 
 const TRACKS: Track[] = [
   {
+    ym: 45073324,
+    title: 'АЕ',
+    kind: 'сингл',
+    year: '2026',
+    note: 'новый релиз · пасхалка с найтивыходом в конце',
+    cover: '/images/ae.png',
+  },
+  {
     ym: 44699033,
     title: 'автопилот',
     kind: 'сингл',

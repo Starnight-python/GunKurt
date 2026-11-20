@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import Reveal from './reveal'
-import Countdown from './countdown'
+import AePlayer from './ae-player'
 
 export default function Soon() {
   return (
@@ -22,29 +22,29 @@ export default function Soon() {
             className="absolute inset-0 bg-gradient-to-r from-[#04070d]/95 via-[#04070d]/75 to-[#04070d]/90"
           />
 
-          <div className="relative grid gap-10 p-7 md:grid-cols-[1.1fr_1fr] md:items-center md:p-12">
+          <div className="relative grid gap-8 p-7 md:grid-cols-[1.1fr_1fr] md:items-center md:p-12">
             <div>
               <p className="flex items-center gap-2.5 font-display text-[10px] font-semibold uppercase tracking-[0.28em] text-red-200/85 md:text-xs">
                 <span
                   aria-hidden
                   className="animate-blink h-2 w-2 rounded-full bg-red-500 shadow-[0_0_12px_rgba(239,68,68,.8)]"
                 />
-                скоро · новый релиз
+                уже вышло · новый релиз
               </p>
               <h2 className="glow-text mt-5 font-display text-6xl font-extrabold leading-none text-slate-50 md:text-7xl">
                 «АЕ»
               </h2>
               <p className="mt-3 font-display text-sm text-cyan-100/85 md:text-base">
-                в эту пятницу · 20 ноября 💔
+                уже на всех площадках 💔
               </p>
               <p className="mt-5 max-w-md leading-relaxed text-slate-300/85">
-                глубоко личный трек перед альбомом 🐋 сведос и обложка сделаны им самим,
-                а в треке спрятана пасхалка — угадаешь,
-                откуда она — получишь ништяк
+                глубоко личный трек перед альбомом: сведение и обложка — сам, музыка —
+                cyberwwway. а в конце — пасхалка с найтивыходом: конец = начало 🐋 нажми
+                play и слушай прямо на сайте
               </p>
               <Link
                 href="/release"
-                className="group mt-7 inline-flex items-center gap-2.5 rounded-full bg-cyan-300 px-6 py-3 font-display text-sm font-bold text-[#04121c] transition-all duration-300 hover:bg-cyan-200 hover:shadow-[0_0_40px_rgba(103,232,249,.45)]"
+                className="group mt-7 inline-flex items-center gap-2.5 rounded-full border border-cyan-200/25 px-6 py-3 font-display text-sm text-cyan-100 transition-all duration-300 hover:border-cyan-200/60 hover:bg-cyan-300/10"
               >
                 всё о релизе
                 <ArrowRight
@@ -54,7 +54,7 @@ export default function Soon() {
               </Link>
             </div>
 
-            <Countdown target="2026-11-20T00:00:00+03:00" />
+            <AePlayer />
           </div>
         </article>
       </Reveal>

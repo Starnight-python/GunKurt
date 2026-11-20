@@ -27,15 +27,15 @@ export const metadata: Metadata = {
     template: "%s · ружьё курта 🐋",
   },
   description:
-    "артист из мурманска. «автопилот» feat. nedonebo уже на всех платформах — ставь на репит и ложись спать 🫂",
-  keywords: ["ружьё курта", "gunkurtt", "gunskurt", "автопилот", "nedonebo", "рэп", "мурманск"],
+    "артист из мурманска. новый трек «АЕ» уже на всех площадках — ставь на репит и ложись спать 🫂",
+  keywords: ["ружьё курта", "gunkurtt", "gunskurt", "автопилот", "nedonebo", "АЕ", "рэп", "мурманск"],
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
     title: "ружьё курта 🐋",
     description:
-      "музыка, в которую уходят под воду. «автопилот» feat. nedonebo — слушай и ложись спать 🫂",
+      "музыка, в которую уходят под воду. новый трек «АЕ» уже вышел — слушай и ложись спать 🫂",
     images: ["/images/hero-whale.png"],
     type: "website",
     locale: "ru_RU",

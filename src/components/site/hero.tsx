@@ -135,7 +135,7 @@ export default function Hero() {
               aria-hidden
               className="animate-blink h-2 w-2 rounded-full bg-red-500 shadow-[0_0_12px_rgba(239,68,68,.8)]"
             />
-            скоро: «АЕ» 💔
+            «АЕ» — уже вышел 💔
           </Link>
         </motion.div>
       </div>

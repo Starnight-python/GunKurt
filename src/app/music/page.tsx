@@ -5,7 +5,7 @@ import Player from '@/components/site/player'
 export const metadata: Metadata = {
   title: 'музыка и плеер',
   description:
-    'все релизы ружья курта и плеер с отрывками прямо на сайте: «автопилот» feat. nedonebo, альбом «когда мы перестали быть "мы"» и другие 🐋',
+    'все релизы ружья курта и плеер с отрывками прямо на сайте: новый трек «АЕ», «автопилот» feat. nedonebo и другие 🐋',
 }
 
 export default function MusicPage() {
