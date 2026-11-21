@@ -28,8 +28,8 @@ const FACTS = [
   },
   {
     icon: Gift,
-    title: 'пасхалка: ништяк на выбор',
-    text: 'в самом конце трека — кусок, который он просил угадать: с каких записей он взят и зачем. угадаешь — получишь ништяк на выбор',
+    title: 'пасхалка: итоги в тгк',
+    text: 'в самом конце трека — кусок личной записи найтивыхода. версии собирались в тгк, конкурс завершился — итоги ищи в его канале',
   },
 ]
 
@@ -178,12 +178,12 @@ export default function ReleasePage() {
             </div>
             <div className="rounded-2xl border border-cyan-200/15 bg-cyan-300/5 p-6">
               <h3 className="font-display text-base font-bold text-cyan-100">
-                конкурс всё ещё идёт
+                конкурс завершён
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-slate-300/80">
-                угадай, с каких записей взят кусок и зачем он там — победитель получит
-                ништяк на выбор. свои версии неси в тгк: правильный ответ он обещал
-                разобрать там 🐋
+                версии собирались в тгк — конкурс с ништяком на выбор уже завершился,
+                итоги у него в канале. а фраза всё ещё работает: поставь трек на репит —
+                и конец станет началом 🐋
               </p>
               <a
                 href="https://t.me/gunkurtt"
@@ -191,7 +191,7 @@ export default function ReleasePage() {
                 rel="noopener noreferrer"
                 className="mt-5 inline-flex items-center gap-2 rounded-full bg-cyan-300 px-5 py-2.5 font-display text-xs font-bold text-[#04121c] transition-all duration-300 hover:bg-cyan-200 hover:shadow-[0_0_30px_rgba(103,232,249,.45)]"
               >
-                угадать в тгк
+                итоги в тгк
               </a>
             </div>
           </div>
